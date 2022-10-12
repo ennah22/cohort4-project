@@ -116,7 +116,7 @@ Hero Slider - by CodyHouse.co
   position: relative;
   height: 490px;
   width: 100%;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .cd-hero__slide {
@@ -179,46 +179,32 @@ Hero Slider - by CodyHouse.co
 }
 
 .cd-hero__slide:first-of-type {
-  background-color: #E65100;
-  background: linear-gradient(to right,rgb(99, 26, 26), rgb(58, 7, 7) );
-  /* background-image: url(../uploads/slider-01.jpg); */
+  background-image: linear-gradient(to left,  rgb(90, 2, 2), rgb(241, 129, 24));
 }
 
 .cd-hero__slide:nth-of-type(2) {
-  background-color: #E65100;
-  background-image: url(../uploads/slider-02.jpg);
+  background-image: url(/images/music\ background.jpg);
 }
 
 .cd-hero__slide:nth-of-type(3) {
-  background-color: #E65100;
-  background-image: url(../uploads/slider-03.jpg);
-}
-
-.cd-hero__slide:nth-of-type(4) {
-  background-color: #E65100;
-  background-image: url(../uploads/slider-04.jpg);
-}
-
-.cd-hero__slide:nth-of-type(5) {
-  background-color: #E65100;
-  background-image: url(../uploads/slider-05.jpg);
+  background-image: linear-gradient(to right, rgb(2, 41, 2), rgb(3, 85, 3))
 }
 
 .cd-hero__content.cd-hero__content--full-width,
 .cd-hero__content.cd-hero__content--half-width {
-  position: absolute;
+ position: absolute;
   width: 100%;
   height: 100%;
   z-index: 1;
   left: 0;
   top: 0;
   /* this padding is used to align the text */
-  padding-top: 100px;
+  padding-top: 50px;
   text-align: center;
   /* Force Hardware Acceleration */
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
-  will-change: transform;
+  will-change: transform; 
 }
 
 .cd-hero__content h2, .cd-hero__content p, .cd-hero__btn, .cd-hero__content--img img {
@@ -257,7 +243,7 @@ Hero Slider - by CodyHouse.co
 }
 
 .cd-hero__content--bg-video video {
-  /* you won't see this element in the html, but it will be injected using javascript */
+  /*you won't see this element in the html, but it will be injected using javascript */
   display: block;
   min-height: 100%;
   min-width: 100%;
@@ -277,20 +263,22 @@ Hero Slider - by CodyHouse.co
 .cd-hero__content h2, .cd-hero__content p {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   line-height: 1.2;
-  margin: 0 auto 14px;
-  color: #ffffff;
+  margin: 0 auto 0px;
+  color: #fdf6f6;
   width: 90%;
   max-width: 400px;
-  font-weight: 300;
+  font-weight: 200;
+  font-size: px;
 }
 
-.cd-hero__content h2 {
-  font-size: 38px;
-  padding: 0px;
+.cd-hero__content h2 ul li{
+  font-size: 18px;
+  padding: 4px;
+  line-height: 16px;
 }
 
 .cd-hero__content p {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.4;
 }
 
@@ -311,7 +299,7 @@ Hero Slider - by CodyHouse.co
   transition: background-color 0.2s;
 }
 
-.cd-hero__btn.cd-hero__btn--secondary {
+.cd-hero__btn.cd-hero__btn--ondary {
   background-color: #333333;
 }
 

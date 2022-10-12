@@ -22,12 +22,11 @@
 -------------------------------------------------------------------*/
 
 body {
-    color: #999;
-    font-size: 15px;
+    font-size: 16px;
     font-family: 'Josefin Sans', sans-serif;
-    line-height: 1.80857;
+    line-height: 1.8;
+  background-image: rgb(248, 239, 239);
 }
-
 body.demos .section {
     background: url(images/bg.png) repeat top center #f2f3f5;
 }
@@ -87,9 +86,7 @@ h1 {
 }
 
 h2 {
-    font-size: 22px;
-    text-transform: uppercase;
-    font-weight: 700;
+    font-size: 16px;
 }
 
 h3 {
@@ -170,7 +167,7 @@ ul, li, ol{
 }
 
 html, body{
-	height: 100%;
+    height: 100%;
 }
 /* HERO SECTION */
 .hero_icon{
@@ -346,10 +343,14 @@ a img.aligncenter {
 	font-size: 18px;
 	border: 1px solid #ffffff;
 	color: #ffffff;
-	background-color: rgb(99, 26, 26);
+	background-color: rgb(214, 91, 10);
 	line-height: 25px;
 	float: right;
 	font-weight: 500;
+}
+.link{
+    color: rgb(22, 22, 233);
+    border-bottom: 3px solid rgb(22, 22, 233);
 }
 
 .right-btn a:hover{
@@ -360,7 +361,7 @@ a img.aligncenter {
 
 /*Navbar Toogle*/
 .navbar-toggler {
-	background: rgb(99, 26, 26);
+	background: rgb(22, 22, 233);
 	border: none;
 	padding: 10px 6px;
 	outline: none !important;
@@ -386,16 +387,16 @@ a img.aligncenter {
 
 .navbar-expand-lg .navbar-nav .nav-link:hover{
 	background: none;
-	color:rgb(99, 26, 26);
+	color: rgb(22, 22, 233);
 	border-radius: 0px;
-	border-bottom: 3px solid rgb(99, 26, 26);
+	border-bottom: 3px solid rgb(22, 22, 233);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link.active{
 	background: none;
-	color: rgb(99, 26, 26);
+	color: rgb(22, 22, 233);;
 	border-radius: 0px;
-	border-bottom: 3px solid rgb(99, 26, 26);
+	border-bottom: 3px solid rgb(22, 22, 233);;
 }
 
 .header_style_01 .navbar-brand {
@@ -556,7 +557,7 @@ body.app_version .header_style_01.fixed-menu{
 }
 
 .section.lb {
-    background-color: #f2f3f5;
+   background-image: url(/images/contact.png);
 }
 
 .section.db {
@@ -651,7 +652,7 @@ body.app_version .header_style_01.fixed-menu{
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgb(99, 26, 26);
+    background: rgb(22, 22, 233);
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 0 50%;
@@ -673,7 +674,7 @@ body.app_version .header_style_01.fixed-menu{
 
 .cd-hero__btn:hover{
 	color: #ffffff;
-    background-color: rgb(99, 26, 26) !important;
+    background-color:rgb(22, 22, 233) !important;
 }
 
 .js-cd-slide::before{
@@ -681,7 +682,7 @@ body.app_version .header_style_01.fixed-menu{
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: rgba(230,81,0,0.25);
+	background: rgba(0, 0, 0, 0.3);
 	left: 0px;
 	right: 0px;
 	top: 0px;
@@ -695,11 +696,25 @@ body.app_version .header_style_01.fixed-menu{
 }
 .about-right p{
 	font-size: 16px; 
-	font-weight: 300;
+	font-weight: 400;
 }
-
-
-
+.center{
+    text-align: center;
+}
+.about-left{
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+.about-left img {
+    padding: 10px;
+}
+#about p{
+    color: #111111;
+    font-weight: 400;
+}
+.section.pb{
+    margin-bottom: 40px;
+}
 .services-inner-box{
 	padding: 15px;
 	background: #ffffff;
@@ -871,7 +886,69 @@ body.app_version .header_style_01.fixed-menu{
     line-height: 40px;
     text-align: center;
 }
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    margin: 15px;
+  }
+  
+  
+  .cards-1 {
+    padding-top: 3rem;
+    padding-bottom: 3.875rem;
+}
 
+.cards-1 .h2-heading {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.cards-1 .card {
+    margin-bottom: 4rem;
+    border: none;
+}
+
+.cards-1 .card-body {
+    padding: 0;
+    text-align: center;
+}
+
+.cards-1 .testimonial-text {
+    margin-bottom: 1.625rem;
+}
+
+.cards-1 img {
+    display: inline-block;
+    width: 60px;
+    margin-bottom: 0.875rem;
+    border-radius: 50%;
+}
+
+.cards-1 .text {
+    margin-top: 0.375rem;
+}
+
+.cards-1 .testimonial-author {
+    color: #2e1814;
+}
+
+.cards-1 .testimonial-author,
+.cards-1 .occupation {
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+}
+.container.first {
+    margin-top: 10px;
+}
 .how-its-work{
 	position: relative;
 	background: rgb(99, 26, 26);
@@ -899,8 +976,37 @@ body.app_version .header_style_01.fixed-menu{
 .how-its-work .hc p{
 	color: #ffffff
 }
+/*     Details     */
 
-.colon1, .colon2, .colon3, .colon4{
+
+/*******************/
+
+.split .area-1 {
+    height: 430px;
+    background: linear-gradient( to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url("../images/details-background.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.split .area-2 {
+    padding-top: 7.75rem;
+    padding-bottom: 7.75rem;
+}
+
+.split p {
+    margin-bottom: 2.25rem;
+}
+
+.split .icons-container {
+    margin-top: 3rem;
+}
+
+.details img {
+    width: 50px;
+    margin-right: 0.625rem;
+    margin-bottom: 0.75rem;
+}
+
+/*.colon1, .colon2, .colon3, .colon4{
 	background: #333333;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
@@ -921,7 +1027,7 @@ body.app_version .header_style_01.fixed-menu{
 	background-color: rgb(99, 26, 26);
 }
 
-.accordion:before{
+/*.accordion:before{
     content: "";
     width: 1px;
     height: 80%;
@@ -957,7 +1063,7 @@ body.app_version .header_style_01.fixed-menu{
     width: 15px;
     height: 15px;
     border-radius: 50px;
-    background: rgb(99, 26, 26);
+    background: rgb(121, 3, 3);
     border: 1px solid #333333;
     position: absolute;
     top: 50%;
@@ -972,7 +1078,7 @@ body.app_version .header_style_01.fixed-menu{
     padding: 15px 55px 15px 30px;
     font-size: 20px;
     font-weight: 600;
-    color: #550527;
+    color: rgb(121, 3, 3);
     border: none;
     margin: 0;
     position: relative;
@@ -1016,14 +1122,17 @@ body.app_version .header_style_01.fixed-menu{
 -------------------------------------------------------------------*/
 
 #contact{
-	background: #333333;
+	background-image: url(/images/731608.jpg);
 }
 
 #contact .section-title h3{
 	color: #ffffff;
 }
 
-
+#contact p{
+    line-height: 30px;
+    color: #ffffff;
+}
  .show > .btn-light.dropdown-toggle{
 	 background-color: transparent;
  }
@@ -1139,7 +1248,7 @@ select.mobile-device {
 }
 
 #contact {
-    background: url(images/bg.png) no-repeat center center #333333;
+    background: url(images/731608.jpg)
 }
 
 .pdi{
@@ -1168,14 +1277,14 @@ body.app_version .bootstrap-select .btn-light:hover{
 }
 
 .tooltip-inner {
-    background: rgb(99, 26, 26); 
+    background: rgb(121, 3, 3); 
     color: #fff;
 }
 .tooltip.bs-tooltip-auto[x-placement^=bottom] .arrow::before, .tooltip.bs-tooltip-bottom .arrow::before {
     margin-top: -3px;
     content: "";
     border-width: 5px 5px 5px 0;
-    border-bottom-color: rgb(99, 26, 26);
+    border-bottom-color: rgb(121, 3, 3);
 }
 
 .get-btn{
@@ -1253,7 +1362,7 @@ body.app_version .bootstrap-select .btn-light:hover{
 }
 
 .subscribe-form .subscribe-btn{
-	background: rgb(99, 26, 26);
+	background: rgb(22, 22, 233);
 	border: none;
 	border-radius: 0px;
 	color: #ffffff;
@@ -1315,7 +1424,7 @@ body.app_version .bootstrap-select .btn-light:hover{
 }
 
 .footer-distributed .footer-company-name a:hover{
-	color:rgb(99, 26, 26);
+	color:rgb(121, 3, 3);
 }
 
 
