@@ -1122,7 +1122,7 @@ body.app_version .header_style_01.fixed-menu{
 -------------------------------------------------------------------*/
 
 #contact{
-	background-image: url(/images/731608.jpg);
+	background-image: url(/images/20496581.jpg);
 }
 
 #contact .section-title h3{
@@ -1248,7 +1248,7 @@ select.mobile-device {
 }
 
 #contact {
-    background: url(images/731608.jpg)
+    background: url(images/20496581.jpg)
 }
 
 .pdi{
@@ -1333,7 +1333,7 @@ body.app_version .bootstrap-select .btn-light:hover{
 .footer {
     padding: 40px !important;
     color: #999;
-    background-color: #1f1f1f;
+    background-color:  rgb(0, 0, 95);
 }
 
 .subscribe-text{
@@ -1383,7 +1383,7 @@ body.app_version .bootstrap-select .btn-light:hover{
 
 .copyrights {
     border-top: 1px dashed rgba(255, 255, 255, 0.1);
-    background-color: #1f1f1f;
+    background-color:  rgb(0, 0, 95);
     box-sizing: border-box;
     width: 100%;
     text-align: left;
